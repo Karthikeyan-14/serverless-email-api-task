@@ -1,0 +1,27 @@
+{
+  "unknown": {
+    "versionFramework": "4.22.0",
+    "dashboard": {
+      "isEnabledForService": false,
+      "requiredAuthentication": true,
+      "orgFeaturesInUse": null,
+      "orgObservabilityIntegrations": null,
+      "serviceAppId": null,
+      "serviceProvider": null,
+      "instanceParameters": null
+    },
+    "command": [
+      "login"
+    ],
+    "options": {},
+    "orgId": "4967a01a-0212-4913-aaf8-b5f09cad028f",
+    "orgName": "newbie14",
+    "userId": "N2Q0wwTq3BnBzGj15K",
+    "userName": "newbie14",
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  }
+}

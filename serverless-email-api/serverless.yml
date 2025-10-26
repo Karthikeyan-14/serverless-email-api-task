@@ -1,0 +1,22 @@
+service: serverless-email-api
+frameworkVersion: "4"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: dev         
+  environment:
+    SENDGRID_API_KEY: ${env:SENDGRID_API_KEY}
+    FROM_EMAIL: ${env:FROM_EMAIL}
+
+plugins:
+  - serverless-offline
+
+functions:
+  sendEmail:
+    handler: handler.sendEmail
+    events:
+      - http:
+          path: send-email
+          method: post
+          cors: true
